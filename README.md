@@ -156,27 +156,6 @@ npx skills add vercel-labs/skills
 npx skills add <owner/repo> -a claude-code
 ```
 
-## Configuration Files
-
-### `.claude/settings.json`
-
-Defines enabled MCP servers:
-
-- **laravel-boost** — Laravel ecosystem docs, routes, schema, tinker
-- **context7** — Vue 3, Pinia, and other frontend library docs
-
-### `.claude/settings.local.json`
-
-Pre-configured tool permissions for:
-
-- Docker commands (`docker compose exec/up/down/ps`)
-- Git operations (`git show/diff/stash/commit/push`)
-- GitHub CLI (`gh pr/issue/api/run`)
-- PHP tools (`pest`, `pint`, `phpstan`, `rector`, `composer`)
-- Node tools (`yarn`, `npm`, `npx`, `node`)
-- MCP server tools (Laravel Boost, Context7, Playwright)
-- Standard shell commands
-
 ### `CLAUDE.md`
 
 The main instructions file. Adapt this to your project:
